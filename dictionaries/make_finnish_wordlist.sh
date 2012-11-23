@@ -33,9 +33,8 @@ do
     let i=i+1
 done
 
-echo 0
 while read line
 do
-    echo "  <w f=\"0\">$line</w>" >> fi_wordlist.xml
+    echo "  <w f=\"1\">$line</w>" >> fi_wordlist.xml
 done < <(tail -n $REMAINDER $1)
 echo "</wordlist>" >> fi_wordlist.xml
