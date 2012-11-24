@@ -20,7 +20,7 @@ COUNTER=255
 DATE=`date +%s`
 i=1
 
-echo "<wordlist locale=\"fi_FI\" description=\"Finnish\" date=\"$DATE\" version=\"16\">" >> fi_wordlist.xml
+echo "<wordlist locale=\"fi\" description=\"Finnish\" date=\"$DATE\" version=\"16\">" >> fi_wordlist.xml
 
 while [ $i -lt 256 ]
 do
