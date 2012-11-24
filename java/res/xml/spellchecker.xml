@@ -37,6 +37,10 @@
     />
     <subtype
             android:label="@string/subtype_generic"
+            android:subtypeLocale="fi"
+    />
+    <subtype
+            android:label="@string/subtype_generic"
             android:subtypeLocale="fr"
     />
     <subtype
